@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Formularios</title>
+  </head>
+  <body>
+    <form action="resultados.html" method="GET">
+      <!--El metodo GET Lo puede gestionar cualquier navegador y el meotodo POST nos ayuda
+         ,siempre y cuando hagamos alguna accion con el servidor-->
+      <!--La etiqueta "<form></form>"nos ayuda a crear formularios 
+          Ademas,la etiequeta <label></label> nos ayuda a representar un elemento 
+          interfaz de usuario
+          Por ultimo, la etiqueta <input></input> se usa para crear controles interactivos
+          para formularios en web y con la finalidad de recibir datos del usuario-->
+      <div>
+        <label for="nombreusuario">Nombre de Usuario</label>
+        <input type="name" name="nombreusuario" id="nombreusuario" required />
+      </div>
+      <br />
+      <div>
+        <label for="password">Contraseña</label>
+        <input type="password" name="password" id="password" required />
+      </div>
+      <br />
+      <div>
+        <label for="email">¿Cual es tu email?</label>
+        <input type="email" name="email" id="email" required />
+      </div>
+      <br />
+      <div>
+        <label for="nacimiento">Cual es tu fecha de nacimiento</label>
+        <input type="date" name="nacimiento" id="nacimiento" />
+        <br />
+      </div>
+      <div>
+        <label for="edad">¿Cual es tu edad?</label>
+        <input type="number" name="edad" id="edad" min="2" max="43" step="4" />
+      </div>
+      <br />
+      <div>
+        <label for="Comentarios">Comentarios</label>
+        <textarea name="Comentarios" id="Comentarios"></textarea>
+      </div>
+      <br />
+      <div>
+        <button type="reset">Reset</button>
+        <button type="submit">Enviar</button>
+      </div>
+    </form>
+  </body>
+</html>
