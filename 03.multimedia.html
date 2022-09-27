@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Multimedia en HTML</title>
-</head>
-<body>
-    <div>
-        <h1>hola como estan,espero estes bien,te llamo para saber como estas</h1>
+  </head>
+  <body>
+    <!--colocando imagenes con la etiqueta <img> y sus atributos src ,alt x width y height-->
+    <h3>Imagenes</h3>
+    <img src="pelota.jpg" alt="pelota al rihla" width="600" height="600" />
 
-    </div>
-    
-</body>
+    <h3>Videos</h3>
+    <!--Etiqueta para poner video <video> </video> con atributos de controls autoplay muted y loop 
+    Ademas de ello,para fijar el video en si,se usa la etiqueta <source src="nombre del archivo en carpeta" type="video/mp4"-->
+    <video width="600" height="600" controls autoplay muted loop>
+      <source src="prueba.mp4" type="video/mp4" />
+    </video>
+
+     <h3>Audios</h3>
+     <!--Etiqueta para poner video <audio> </audio> con atributos de controls autoplay muted y loop 
+    Ademas de ello,para fijar el video en si,se usa la etiqueta <source src="nombre del archivo en carpeta" type="audio/mp4"-->
+     <audio controls>
+        <source src="prueba.ogg" type="audio/ogg">
+     </audio>
+  </body>
 </html>
