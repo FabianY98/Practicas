@@ -1,0 +1,49 @@
+/* Llamar de manera natural a una etiqueta html
+*/
+h1 {
+  color: red;
+}
+/*Estoy probando colores y fuentes */
+p {
+  color: orange;
+  font-size: 16pt;
+}
+/*Para llamar por id de una misma etiqueta sabiendo que recibira valores distintos
+se usara el caracter "#id",por ejm:*/
+
+#primera-noticia {
+  color: yellow;
+  font-size: 20pt;
+}
+
+#segunda-noticia {
+  color: slategray;
+  font-size: 20pt;
+}
+/*Para llamar por class de una misma etiqueta sabiendo que recibira valores distintos 
+se usara el caracter "."class , por ejm : */
+.encabezado {
+  font-size: 24pt;
+  text-transform: uppercase;
+}
+
+/*  *. es un selector en la cual permite poner caracteisticas a todas las etiquetas involucradas*/
+
+*.warning {
+  color: slategray;
+  font-size: 21pt;
+}
+.autor {
+    text-decoration: underline;
+}
+.fecha {
+    text-decoration: underline;
+}
+.ubicacion {
+    text-decoration: underline;
+}
+/*UNA FORMA MAS ABREVIADA DE AGARRAR UN SELECTOR CLASS SERIA ASI: */
+
+.autor , .fecha , .ubicacion {
+    text-decoration: underline;
+}
