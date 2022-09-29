@@ -1,0 +1,36 @@
+/*Estilos para colores*/
+/*Dando color a una letra y llamando a la etiqueta h1 por class,
+utilizando ."classnombre" */
+.Color {
+    color: red;
+}
+.colorcito{
+    color: blueviolet;
+}
+#ojo{
+    color: #ff0;
+}
+/*Para utilizar los colores de manera hexadecimal se antepone el simbolo #......*/
+.Colores{
+    color: #231942;
+}
+/*Para utilizar en gamma rgb lo sgte : */
+.color-rgb{
+    color: rgb(100, 200,400)
+}
+
+.color-rgba{
+    color: rgba(10,10, 10, 1)
+}
+.Fondo{
+    color: white;
+    /*background-color: brown;*/
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3fTktfhTs_S299sbMtrXBd66rlCGgc_01KmGlY0hF&s");
+    background-position: left bottom;
+}   
+.Fondo-interno{
+    color: white;
+    /*background-color: brown;*/
+    background-image: url("fondo\ interno.jpg");
+    background-position: left bottom;
+}   
