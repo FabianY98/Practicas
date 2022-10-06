@@ -1,0 +1,25 @@
+.div-1 , .div-2{
+    background-color: brown;
+    /*display: block,por defecto  -div tiene display block*/
+}
+
+.class-1{
+    background-color: aquamarine;
+    /*height: 500px;
+    display: inline-block*/
+    /*display:inline por defecto -span tiene display inline */
+    float: left;
+}
+.class-2{
+    background-color: yellow;
+    /*height: 500px;
+    display: inline-block*/
+    /*display:inline por defecto -span tiene display inline */
+    float: right;
+}
+.logo {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+
+}
